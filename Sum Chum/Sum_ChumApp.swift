@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct Sum_ChumApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct Sum_ChumApp: App{
+    
+    var body: some Scene{
+        
+        WindowGroup{
+            HomeView()
         }
     }
 }
